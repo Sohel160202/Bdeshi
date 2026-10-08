@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5eed8" />
+    <meta name="description" content="Explore the menu at B-deshi Café — coffee, comfort food, sandwiches, pizzas and more." />
+    <meta property="og:title" content="B-deshi Café · Menu" />
+    <meta property="og:description" content="A little coffee, a little comfort, a lot of B-deshi." />
+    <meta property="og:image" content="/logo.jpg" />
+    <title>B-deshi Café · Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="B-deshi Café home">
+        <span class="brand-mark"><img src="/logo.jpg" alt="B-deshi Café logo" /></span>
+        <span><strong>B-deshi</strong><small>Café</small></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#about">Our café</a>
+        <a href="#scan">Scan menu</a>
+      </nav>
+      <a class="header-action" href="#menu">Explore menu <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> B-deshi Café</p>
+          <h1>Comfort food.<br /><em>Local soul.</em></h1>
+          <p class="hero-text">Coffee, conversations and a menu made for the kind of day you want to remember.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">See the menu <span>↓</span></a>
+            <a class="text-link" href="#about">A little about us <span>↗</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Freshly prepared · Served with warmth</div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card hero-card-main">
+            <img src="/menu/freddos.jpg" alt="B-deshi Café iced freddo menu" />
+            <div class="hero-card-caption"><span>Something cold</span><strong>for every mood</strong></div>
+          </div>
+          <div class="hero-sticker">made<br /><b>for you</b> <span>✦</span></div>
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        </div>
+      </section>
+
+      <section class="intro-strip" id="about">
+        <div class="section-shell intro-grid">
+          <p class="eyebrow light"><span></span> Welcome in</p>
+          <h2>A little coffee,<br /><em>a lot of B-deshi.</em></h2>
+          <p>From first sip to last bite, B-deshi Café brings together familiar flavours, playful specials and the easy feeling of finding your favourite table.</p>
+        </div>
+      </section>
+
+      <section class="menu-section section-shell" id="menu">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> Take your time</p><h2>Our menu</h2></div>
+          <p class="section-description">Browse the menu boards below or jump straight to what you are craving.</p>
+        </div>
+        <div class="category-tabs" role="tablist" aria-label="Menu categories">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="coffee">Coffee</button>
+          <button data-filter="food">Food</button>
+          <button data-filter="cold">Cold drinks</button>
+          <button data-filter="sweet">Sweet bites</button>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card tall" data-category="food sweet">
+            <div class="menu-image"><img src="/menu/breakfast.jpg" alt="Breakfast and croissant menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Breakfast · Bakes</span><h3>Start slow</h3></div><span class="card-number">01</span></div>
+          </article>
+          <article class="menu-card" data-category="food">
+            <div class="menu-image"><img src="/menu/pizza-pasta.jpg" alt="Pizza pasta and shawarma menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Pizza · Pasta · Shawarma</span><h3>Big comfort</h3></div><span class="card-number">02</span></div>
+          </article>
+          <article class="menu-card" data-category="coffee sweet">
+            <div class="menu-image"><img src="/menu/coffee.jpg" alt="Coffee menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Hot · Iced · Creamy</span><h3>Find your coffee</h3></div><span class="card-number">03</span></div>
+          </article>
+          <article class="menu-card" data-category="cold">
+            <div class="menu-image"><img src="/menu/mocktails.jpg" alt="Mocktails mojitos and iced teas menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Mocktails · Mojitos</span><h3>Pour some colour</h3></div><span class="card-number">04</span></div>
+          </article>
+          <article class="menu-card" data-category="coffee cold">
+            <div class="menu-image"><img src="/menu/freddos.jpg" alt="Iced freddos menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Iced coffee</span><h3>Cool down</h3></div><span class="card-number">05</span></div>
+          </article>
+          <article class="menu-card" data-category="food sweet">
+            <div class="menu-image"><img src="/menu/meals.jpg" alt="Meals burgers cakes and desserts menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Meals · Burgers · Cakes</span><h3>Come hungry</h3></div><span class="card-number">06</span></div>
+          </article>
+          <article class="menu-card" data-category="food">
+            <div class="menu-image"><img src="/menu/sandwiches.jpg" alt="Sandwich menu" loading="lazy" /></div>
+            <div class="menu-card-footer"><div><span class="card-kicker">Sandwiches</span><h3>Stack it up</h3></div><span class="card-number">07</span></div>
+          </article>
+        </div>
+        <p class="menu-footnote">All prices are in BDT. Menu items and prices may change based on availability.</p>
+      </section>
+
+      <section class="scan-section" id="scan">
+        <div class="section-shell scan-grid">
+          <div><p class="eyebrow light"><span></span> Keep this close</p><h2>Scan. Sit.<br /><em>Stay awhile.</em></h2><p>Put this QR code on your tables, counter or takeaway bags. Guests can scan it and land directly on the menu.</p><a class="button button-cream" href="#menu">Open menu <span>↗</span></a></div>
+          <div class="qr-card"><div class="qr-heading"><span>Scan for the menu</span><b>⌁</b></div><img id="qr-code" alt="QR code linking to the B-deshi Café menu" /><p id="qr-url">This menu · always within reach</p><button id="print-qr" class="qr-print">Print this QR card <span>↗</span></button></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="section-shell footer-inner"><div class="brand footer-brand"><span class="brand-mark"><img src="/logo.jpg" alt="" /></span><span><strong>B-deshi</strong><small>Café</small></span></div><p>Good food. Good coffee. Good company.</p><span class="footer-year">© 2026</span></div></footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
